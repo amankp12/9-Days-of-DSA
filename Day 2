@@ -1,0 +1,4 @@
+Following are the factors that play a significant role in the long term usage of an algorithm:
+Efficiency — We’ve already talked about how much efficiency matters in creating a good algorithm. It is the efficiency that reduces the computational time and generating quick output.
+Finiteness — The algorithm must terminate after completing a specified number of steps. Otherwise, it’ll use more memory space, and it’s considered a bad practice. Stack overflow and out-of-bounds conditions may occur if it goes on for infinite loops or recursion.
+Correctness — A good algorithm should produce a correct result irrespective of the size of the input provided.
