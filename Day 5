@@ -1,0 +1,43 @@
+Explain the functionality of the following functions.
+Question 1
+int fun1(int x, int y)
+{
+    if (x == 0)
+        return y;
+    else
+        return fun1(x - 1, x + y);
+}
+Answer: The function fun() calculates and returns ((1 + 2 … + x-1 + x) +y), which is x(x+1)/2 + y. For example, if x is 5 and y is 2, then fun should return 15 + 2 = 17.
+
+Question 2 
+// minimum index finder
+int minIndex(int arr[], int s, int e)
+{
+    int sml = INT32_MAX;
+    int mindex;
+    for (int i = s; i < e; i++) {
+        if (sml > arr[i]) {
+            sml = arr[i];
+            mindex = i;
+        }
+    }
+    return mindex;
+}
+ 
+void fun2(int arr[], int start_index, int end_index)
+{
+    if (start_index >= end_index)
+        return;
+    int min_index;
+    int temp;
+ 
+    // minIndex() returns index of minimum value in
+    // array arr[start_index...end_index]
+    min_index = minIndex(arr, start_index, end_index);
+ 
+    // swap the element at start_index and min_index
+    swap(arr[start_index], arr[min_index]);
+ 
+    fun2(arr, start_index + 1, end_index);
+}
+Answer: The function fun2() is a recursive implementation of Selection Sort.
