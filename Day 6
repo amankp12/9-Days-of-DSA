@@ -1,0 +1,3 @@
+Why there is no recursion in Fortran?
+As we know that recursion requires stack, as fortran does not support dynamic allocation . Hence there is no recursion in Fortran.
+Since the original Fortrans did not have this concept, and stored all variables at fixed global locations, a recursive call would crash or hang if we will try to implement recursion.
