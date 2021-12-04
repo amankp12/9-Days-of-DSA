@@ -1,0 +1,23 @@
+Backtracking | Introduction
+Prerequisites : 
+
+Recursion
+Complexity Analysis
+Backtracking is an algorithmic-technique for solving problems recursively by trying to build a solution incrementally, one piece at a time, removing those solutions that fail to satisfy the constraints of the problem at any point of time (by time, here, is referred to the time elapsed till reaching any level of the search tree). 
+
+Attention reader! Don’t stop learning now. Get hold of all the important DSA concepts with the DSA Self Paced Course at a student-friendly price and become industry ready.  To complete your preparation from learning a language to DS Algo and many more,  please refer Complete Interview Preparation Course.
+
+In case you wish to attend live classes with experts, please refer DSA Live Classes for Working Professionals and Competitive Programming Live for Students.
+
+According to the wiki definition, 
+
+
+
+Backtracking can be defined as a general algorithmic technique that considers searching every possible combination in order to solve a computational problem. 
+ 
+
+There are three types of problems in backtracking –  
+
+Decision Problem – In this, we search for a feasible solution.
+Optimization Problem – In this, we search for the best solution.
+Enumeration Problem – In this, we find all feasible solutions.
