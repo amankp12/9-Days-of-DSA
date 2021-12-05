@@ -1,0 +1,11 @@
+Backtracking Problem Identification
+Every problem that has clear and well established constraints on any objective solution which incrementally aids candidate to the solution and abandons a candidate (“backtracks”) whenever it determines that the candidate is not able to reach a feasible solution. Such problems can be solved by Backtracking. The backtracking algorithms are generally exponential in nature with regards to both time and space.
+However, most of the commonly discussed problems, can be solved using other popular algorithms like Dynamic Programming or Greedy Algorithms in O(n), O(logn) or O(n* logn) time complexities in order of input size. Hence, in such cases, usage of backtracking becomes an overkill.
+But, there still remain some problems that only have backtracking algorithms as the means of solving them till date.
+Consider a real life scenario. We have three boxes and we are told that only one of them has a gold coin in it and we do not know exactly which box has it. So, in order to identify which box has the coin, we will have no other option than opening all the boxes one by one.
+
+The first box is checked first. If it does not contain the coin, we close it and check the second box and so on until we find the coin. This is nothing but utilisation of backtracking algorithm in real life. It is the process of solving all sub-problems one by one to reach the best possible solution for any given problem.
+Let us take a technical example and understand backtracking more clearly. Given an instance of any problem P and data D corresponding to the instance, all the constraints that are to be satisfied for solving the problem as C. The backtracking algorithm will then be:
+The algorithm begins to build up a solution, starting with an empty solution set S. S = {}
+All possible moves are added to S one by one. Firstly, we add to S the first move that is left. This now creates a new sub-tree s in the state space tree.
+Check if S+s is valid by seeing if it satisfies each of the constraints defined in C.
