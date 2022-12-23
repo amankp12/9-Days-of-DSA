@@ -1,2 +1,2 @@
-# 90-Days-of-DSA
-90 days of DSA
+# 9-Days-of-DSA
+9 days of DSA
